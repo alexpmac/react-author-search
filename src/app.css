@@ -1,0 +1,8 @@
+.app {
+	padding: 1rem;
+}
+
+.app > *:not(:first-child),
+.app > section > *:not(:first-child) {
+	margin-top: 1rem;
+}
